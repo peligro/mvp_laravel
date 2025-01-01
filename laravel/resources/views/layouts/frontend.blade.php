@@ -138,7 +138,7 @@
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu">
 
-                        <li class="has-submenu active">
+                        <li class="has-submenu">
                             <a href="{{route('home_index')}}" title="Inicio"><i class="md md-dashboard"></i>Inicio</a>
                         </li>
 
@@ -147,8 +147,8 @@
                         <li class="has-submenu">
                             <a href="#" title="Administración"><i class="md md-settings"></i>Administración</a>
                             <ul class="submenu">
-                                <li><a href="crm-opportunities.html" title="Módulos"><i class="fa fa-indent"></i> Módulos </a></li>
-                                <li><a href="crm-dashboard.html" title="Perfiles"><i class="icon-list"></i> Perfiles </a></li>
+                                <li><a href="{{route('modulos_index')}}" title="Módulos"><i class="fa fa-indent"></i> Módulos </a></li>
+                                <li><a href="{{route('perfiles_index')}}" title="Perfiles"><i class="icon-list"></i> Perfiles </a></li>
                                 <li><a href="crm-contact.html" title="Usuarios"><i class="icon-user-following"></i> Usuarios </a></li>
                             </ul>
                         </li>
